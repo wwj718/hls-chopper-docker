@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# update our nginx.conf based on our geo-ip
+cp /service/config/nginx.conf /usr/local/etc/nginx.conf
+
+# start
+/usr/local/sbin/nginx
