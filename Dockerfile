@@ -13,4 +13,4 @@ WORKDIR /service
 CMD ["/service/bin/run"]
 
 # configuration
-EXPOSE 1935
+EXPOSE 1935 80
